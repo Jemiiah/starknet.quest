@@ -352,5 +352,6 @@ type ChartItem = {
   color: string,
   itemLabel: string,
   itemValue: string,
-  itemValueSymbol: string
+  itemValueSymbol: string,
+  hidePortfolio?: boolean
 }

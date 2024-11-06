@@ -74,6 +74,7 @@ export default function Page({ params }: AddressOrDomainProps) {
   const { address } = useAccount();
   const { starknetIdNavigator } = useContext(StarknetIdJsContext);
   const [initProfile, setInitProfile] = useState(false);
+  const [hidePortfolio, setHidePortfolio] = useState(false);
   const { getBoostClaimStatus } = useBoost();
   const [leaderboardData, setLeaderboardData] =
     useState<LeaderboardToppersData>({
