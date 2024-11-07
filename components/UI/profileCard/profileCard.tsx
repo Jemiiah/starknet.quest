@@ -147,7 +147,7 @@ const ProfileCard: FunctionComponent<ProfileCardProps> = ({
                   <Skeleton variant="text" width={60} height={30} />
                 )}
               </Typography>
-              <div onClick={() => setHidePortfolio(!hidePortfolio)}>
+              <div onClick={() => setHidePortfolio(!hidePortfolio)} className="cursor-pointer">
                 {hidePortfolio ? <EyeIconSlashed /> : <EyeIcon />}
               </div>
             </div>
